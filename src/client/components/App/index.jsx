@@ -1,5 +1,6 @@
 import Card from "../Card";
 import Input from "../Input";
+import Select from "../Select";
 
 import "./App.css";
 
@@ -9,6 +10,8 @@ function App() {
       <h1>
         To <span className="text-gradient">Translate</span>
       </h1>
+      <br />
+      <Select title="Languages list" />
       <Card>
         <Input placeholder="Enter text to translate" />
       </Card>

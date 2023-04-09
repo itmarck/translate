@@ -1,0 +1,11 @@
+.select {
+  border: 1px solid rgba(var(--accent), 25%);
+  background-color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.4rem;
+  color: inherit;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
