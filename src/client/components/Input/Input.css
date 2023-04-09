@@ -4,9 +4,9 @@
   color: #444;
   outline: none;
   font-family: inherit;
+  font-size: inherit;
   width: 100%;
   height: 6rem;
   resize: none;
   overflow: auto hidden;
-  font-size: 1rem;
 }

@@ -1,3 +1,4 @@
+import Button from "../Button";
 import Card from "../Card";
 import Input from "../Input";
 import Select from "../Select";
@@ -15,6 +16,8 @@ function App() {
       <Card>
         <Input placeholder="Enter text to translate" />
       </Card>
+
+      <Button content="Translate" />
     </main>
   );
 }
