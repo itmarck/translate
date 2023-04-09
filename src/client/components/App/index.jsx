@@ -1,4 +1,5 @@
 import Card from "../Card";
+import Input from "../Input";
 
 import "./App.css";
 
@@ -8,7 +9,9 @@ function App() {
       <h1>
         To <span className="text-gradient">Translate</span>
       </h1>
-      <Card>This is a translator web using OpenAI API.</Card>
+      <Card>
+        <Input placeholder="Enter text to translate" />
+      </Card>
     </main>
   );
 }
