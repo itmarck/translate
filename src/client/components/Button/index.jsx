@@ -1,7 +1,11 @@
 import "./Button.css";
 
-function Button({ content }) {
-  return <button className="link-button">{content}</button>;
+function Button({ type, content }) {
+  return (
+    <button type={type} className="link-button">
+      {content}
+    </button>
+  );
 }
 
 export default Button;

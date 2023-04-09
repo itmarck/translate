@@ -1,8 +1,10 @@
 import "./Input.css";
 
-function Input({ placeholder }) {
+function Input({ value, onChange, placeholder }) {
   return (
     <textarea
+      value={value}
+      onChange={onChange}
       className="input"
       type="text"
       rows={1}
