@@ -1,6 +1,10 @@
 import express from "express";
 import server from "vite-express";
+import dotenv from "dotenv";
 
+dotenv.config();
+
+const port = process.env.TRANSLATE_PORT;
 const app = express();
 
-server.listen(app, 3000);
+server.listen(app, port);
